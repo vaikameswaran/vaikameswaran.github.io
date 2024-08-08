@@ -1,0 +1,53 @@
+$(document).ready(function(){
+				var menu="close";
+				$('#toggleButton').click(function(){
+					if(menu=="close")
+					{
+						$('#phoneNavBar').removeClass('translateinward');
+						$('#phoneNavBar').addClass('translateorigin');
+						$('#mainContainer').removeClass('translateorigin');
+						$('#mainContainer').addClass('translateoutward');
+						$('#toggleButton').removeClass('translateorigin');
+						$('#toggleButton').addClass('translatebuttonoutward');
+						$(this).attr("src", "imgs/menucollapse.png");
+						$('#footer').removeClass('translateorigin');
+						$('#footer').addClass('translateoutward');
+						//$(this).parent().removeClass('translateorigin');
+						//$(this).parent().addClass('translateoutward');
+						//$('.phonenavbar').css('-webkit-transform','translate(0,0)');
+						//$('.container').css('-webkit-transform','translate(80%,0)');
+						menu="open";
+					}
+					else
+					{
+						$('#phoneNavBar').removeClass('translateorigin');
+						$('#phoneNavBar').addClass('translateinward');
+						$('#mainContainer').removeClass('translateoutward');
+						$('#mainContainer').addClass('translateorigin');
+						$('#toggleButton').removeClass('translatebuttonoutward');
+						$('#toggleButton').addClass('translateorigin');
+						$(this).attr("src", "imgs/menudrag.png");
+						//$(this).parent().removeClass('translateoutward');
+						//$(this).parent().addClass('translateorigin');
+						//$('.phonenavbar').prop('-webkit-transform','translate(-100%,0)');
+						//$('.container').prop('-webkit-transform','translate(0,0)');
+						$('#footer').removeClass('translateoutward');
+						$('#footer').addClass('translateorigin');
+						menu="close";
+					}
+					
+				});	
+			  $('.phonenavigationmenu').click(function(){
+			  	$(this).siblings().removeClass('current');
+			  	$('#phoneNavBar').removeClass('translateorigin');
+				$('#phoneNavBar').addClass('translateinward');
+				$('#mainContainer').removeClass('translateoutward');
+				$('#mainContainer').addClass('translateorigin');
+				$('#toggleButton').removeClass('translatebuttonoutward');
+				$('#toggleButton').addClass('translateorigin');
+				$('#footer').removeClass('translateoutward');
+				$('#footer').addClass('translateorigin');
+				$(this).addClass('current');
+				menu="close";
+			  });
+			});

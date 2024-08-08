@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+@font-face {
+  font-family: 'argesta_displayregular';
+  src: url('argestadisplay-regular-webfont.eot');
+  src: url('argestadisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('argestadisplay-regular-webfont.woff2') format('woff2'),
+       url('argestadisplay-regular-webfont.woff') format('woff'),
+       url('argestadisplay-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+font-family: argesta_displayregular;
+}
+
+
+body{
+  position:relative;
+  font-family: argesta_displayregular;
+  font-style: normal;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.mainpagebody{
+	width:300px;
+	margin: 20px auto;
+}
+
+.summarytext{
+  font-size:1.2em;
+  color:#08213a;
+  text-align:justify;
+}
+
+.orangecolor{
+	color:#da3333
+}
+
+
+.logotext{
+  color:#094B80;
+  font-size: 1.2em;
+  font-variant: small-caps;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.profileimagestyle
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbarstyle
+{
+  box-shadow: 0px 1px 1px -1px #c4c4c4;
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+.nav-link
+{
+  font-size:1.3em;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.shadowborderpadding{
+  padding-bottom: .6em;
+}
+
+.semititletext{
+  font-weight: bold;
+  color:#08213a;
+  font-size: 1.25rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+  color: #da3333;
+  font-weight: bold;
+}
+
+.educationliststyle{
+  list-style:none;
+  }
+
+.educationliststyle li{
+}
+
+.iconpadding{
+  font-size:1em;
+}
+
+.collegestyle{
+  color: #5e5e5e;
+font-size: .9em;
+font-style: italic;
+}
+
+.linkstyle{
+ color: #da3333;
+}
+
+.orangecolor{
+color: #da3333;
+}
+
+.socialiconstyle
+{
+  margin:.05em;
+  color: #da3333;
+}
+
+.titlestyle{
+  font-size: 1.35em;
+  margin-top: .65em;
+  color:#08213a;
+}
+
+.sectionheaderstyle{
+font-size:2.25em;
+font-variant: small-caps;
+font-weight: bold;
+color:#08213a;
+}
+
+.card-body{
+  box-shadow: 0px 5px 5px #c4c4c4;
+}
+
+.card-title{
+font-size:1.25em;
+font-variant:small-caps;
+}
+
+.card-text{
+ font-size: 1rem;
+ color:#5e5e5e;
+}
+
+.authornames{
+  font-size:1.2em;
+  color:#08213a;
+}
+
+.yearstyle{
+  font-size:1.2em;
+  color:#08213a;
+}
+
+.papertitle{
+  font-size:1.2em;
+  /*color:#EC6867;*/
+  color: #da3333;
+}
+
+a:hover{
+  color: #da3333;
+  text-decoration: underline;
+}
+
+.conferencetitle{
+  font-size:1.2em;
+  color:#08213a;
+  font-style: italic;
+}
+
+.noEvents{
+  color:#08213a;
+  text-decoration: none;
+}
+
+.noEvents:link {
+  color:#08213a;
+  text-decoration: none;
+}
+
+/* visited link */
+.noEvents:visited {
+  color:#08213a;
+  text-decoration: none;
+}
+
+/* mouse over link */
+.noEvents:hover {
+  color:#08213a;
+  text-decoration: none;
+}
+
+/* selected link */
+.noEvents:active {
+  color:#08213a;
+  text-decoration: none;
+}
+
+/*@media screen and (max-width:768px) {
+	.mainpagebody{
+		width: 270px;
+	}
+}
+
+@media screen and (max-width:992px) {
+	.mainpagebody{
+		width: 570px;
+  }
+}*/
+
+@media (min-width: 576px) {  
+  .mainpagebody{
+		width: 300px;
+	}
+}
+
+@media (min-width: 768px) { .mainpagebody{
+  width: 570px;
+}}
+
+
+@media (min-width: 992px) { .mainpagebody{
+  width: 870px;
+} }
+
+
+@media (min-width: 1200px) { .mainpagebody{
+  width: 1170px;
+} }
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

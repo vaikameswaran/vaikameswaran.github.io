@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Vaishnav's Portfolio</title>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="css/styles.css" rel="stylesheet"/>
+		<link rel="icon" href="imgs/favicon.png" type="image/png" sizes="16x16">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/offcanvasmenu.js"></script>
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Sample Ad Unit -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3662593650300203"
+     data-ad-slot="3755033576"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+	</head>
+	<body class="aboutpagebody">
+		<header class="headerstyle">	
+			<div class="container hidden-xs">
+				<div class="row">
+					<p class="homelinkscollection">
+						<a class="homenavigationlink linkinnavbar" href="index.html">HOME</a>
+						<a class="homenavigationlink linkinnavbar" href="work.html">WORK</a>
+						<a class="homenavigationlink linkinnavbar" href="about.html">ABOUT</a>
+						<a class="currentpagebuttonstyle" href="contact.html">CONTACT</a>
+					</p>
+				</div>
+			</div>
+			<div id="phoneNavBar" class="navbar phonenavbar visible-xs">
+					<nav>
+						<a class="phonenavigationmenu" href="index.html">HOME</a>
+						<a class="phonenavigationmenu" href="work.html">WORK</a>
+						<a class="phonenavigationmenu" href="about.html">ABOUT</a>
+						<a class="phonenavigationmenu current" href="contact.html">CONTACT</a>
+					</nav>
+			</div>
+			<div class="visible-xs" style="background-color:#2C2D2F;">
+				<img id="toggleButton" src="imgs/menudrag.png"/>
+			</div>
+		</header>
+		<div id="mainContainer" class="container">
+			<div class="row">
+				<h2 class="aboutintroduction">I LOVE TO TALK !</h2>
+			</div>
+			<form id="contact" method="post" class="form" role="form" action="http://vaishnavk.com/processform.php" style="margin-top:3%"> 
+				<div class="row">
+					<div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-3">
+						<label for="nameOfContact" class="contactformlabelstyle control-label">Name *</label>
+						<input id="nameOfContact" name="name" class="form-control contactforminputstyle" required placeholder="I'm Vaishnav, you are ?"></input>
+					</div>
+				</div>
+				<div class="row" style="margin-top:2%">
+					<div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-3">
+						<label for="emailOfContact" class="contactformlabelstyle control-label">Email Address *</label>
+						<input id="emailOfContact" name="email" type="email" class="form-control contactforminputstyle" required placeholder="You want me to write back don't you ?"></input>
+					</div>
+				</div>
+				<div class="row" style="margin-top:2%">
+					<div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-3">
+						<label for="message" class="contactformlabelstyle control-label">Message</label>
+						<textarea id="message" name="message" class="controlformtextareastyle" placeholder="Say something !"></textarea>
+					</div>
+				</div>
+				<div class="row" style="margin-top:3%">
+					<div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-3">
+						<a class="submitbuttonstyle" onclick="document.getElementById('contact').submit();">SUBMIT</a>
+					</div>
+				</div>
+                                <div class="row" style="margin-top:2.0%">
+					<div class="col-xs-8 col-sm-8 col-md-6 col-xs-offset-2 col-sm-offset-2 col-md-offset-3">
+						<p class="contactmetext"> // 312-659-8050 // vaikam@umich.edu // @vaikameswaran</p>
+					</div>
+				</div>
+			</form>	
+		</div>
+		<div class="clear-footer"></div>
+		<footer id="footer">© Vaishnav Kameswaran 2014</footer>
+	</body>
+</html>
