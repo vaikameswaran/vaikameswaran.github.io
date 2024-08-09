@@ -176,34 +176,40 @@ a:hover{
   overflow: hidden;
 }
 
-.filterDiv{
+.filterDiv {
   
-  display: none; /* Hidden by default */
+  display: none;
 }
 
-/* The "show" class is added to the filtered elements */
 .show{
+  color: white;
   display: block;
+}
+
+.containerThings {
+  margin-top: 20px;
+  overflow: hidden;
 }
 
 /* Style the buttons */
 .btn {
-  border: none;
-  outline: none;
   padding: 12px 16px;
-  background-color: #f1f1f1;
   cursor: pointer;
+  border: .5px solid #08213a;
+  background-color: white;
+  color:#08213a;
+  margin-bottom: .5em;
+  min-width: 185px;
 }
 
-/* Add a light grey background on mouse-over */
 .btn:hover {
   background-color: #ddd;
 }
 
-/* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
+  background-color: #da3333;
   color: white;
+  border: none;
 }
 
 .noEvents{
@@ -349,11 +355,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
