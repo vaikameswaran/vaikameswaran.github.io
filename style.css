@@ -172,17 +172,17 @@ a:hover{
   font-style: italic;
 }
 
-.container {
+.container{
   overflow: hidden;
 }
 
-.filterDiv {
+.filterDiv{
   
   display: none; /* Hidden by default */
 }
 
 /* The "show" class is added to the filtered elements */
-.show {
+.show{
   display: block;
 }
 
