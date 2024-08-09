@@ -40,6 +40,10 @@ body{
 	color:#da3333
 }
 
+.boldtext{
+  text-decoration: underline;
+}
+
 
 .logotext{
   color:#094B80;
@@ -200,6 +204,14 @@ a:hover{
   color:#08213a;
   margin-bottom: .5em;
   min-width: 185px;
+}
+
+.carditem{
+  margin-bottom: .5em;
+}
+
+.cardlist{
+  padding-left: 1em;
 }
 
 .btn:hover {
