@@ -109,7 +109,8 @@ font-style: italic;
 }
 
 .linkstyle{
- color: #da3333;
+    color: #08213a;
+    text-decoration: underline;
 }
 
 .orangecolor{
