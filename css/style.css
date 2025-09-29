@@ -72,7 +72,7 @@ body{
 
 .nav-link
 {
-  font-size:1.3em;
+  font-size:1em;
 }
 
 .navbar-toggle .icon-bar {
@@ -91,7 +91,6 @@ body{
 
 .navbar-light .navbar-nav .nav-link.active{
   color: #da3333;
-  font-weight: bold;
 }
 
 .educationliststyle{
