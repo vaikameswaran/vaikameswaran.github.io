@@ -53,6 +53,11 @@ body{
   margin-bottom: 0px;
 }
 
+.top-padding
+{
+	padding-top: .5em;
+}
+
 .profileimagestyle
 {
   max-width: 100%;
