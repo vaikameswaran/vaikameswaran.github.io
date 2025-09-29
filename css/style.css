@@ -30,10 +30,11 @@ body{
 	margin: 20px auto;
 }
 
-.summarytext{
-  font-size:1.2em;
-  color:#08213a;
-  text-align:left;
+.summarytext {
+    font-size: .95em;
+    color: #515151;
+    text-align: left;
+    padding-top: 1em;
 }
 
 .orangecolor{
