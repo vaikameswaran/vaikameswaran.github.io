@@ -81,8 +81,8 @@ body{
 
 .semititletext{
   font-weight: bold;
-  color:#08213a;
-  font-size: 1.25rem;
+  color: #08213a;
+  font-size: 1rem;
 }
 
 .navbar-light .navbar-nav .nav-link.active{
