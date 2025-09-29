@@ -2,7 +2,7 @@
 
 
 @font-face {
-  font-family: 'argesta_displayregular';
+  font-family: 'arial';
   src: url('argestadisplay-regular-webfont.eot');
   src: url('argestadisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
        url('argestadisplay-regular-webfont.woff2') format('woff2'),
@@ -13,13 +13,13 @@
 }
 
 h1{
-font-family: argesta_displayregular;
+font-family: arial;
 }
 
 
 body{
   position:relative;
-  font-family: argesta_displayregular;
+  font-family: arial;
   font-style: normal;
   margin-left: 1em;
   margin-right: 1em;
