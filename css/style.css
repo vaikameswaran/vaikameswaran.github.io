@@ -25,6 +25,11 @@ body{
   margin-right: 1em;
 }
 
+.justifytext
+{
+	text-align:justify;
+}
+
 .mainpagebody{
 	width:300px;
 	margin: 20px auto;
