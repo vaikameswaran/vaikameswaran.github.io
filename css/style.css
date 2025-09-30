@@ -27,6 +27,8 @@ body{
 
 .justifytext
 {
+	font-size: .95em;
+    color: #515151;
 	text-align:justify;
 }
 
