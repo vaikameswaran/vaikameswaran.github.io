@@ -25,13 +25,6 @@ body{
   margin-right: 1em;
 }
 
-.justifysummarytext
-{
-	font-size: .95em;
-    color: #515151;
-	text-align:justify;
-}
-
 .mainpagebody{
 	width:300px;
 	margin: 20px auto;
